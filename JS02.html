@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Atividade de Boas-Vindas</title>
+</head>
+<body>
+
+  <h2>Atividade de Boas-Vindas</h2>
+
+  <!-- Botão -->
+  <button onclick="boasVindas()">Clique aqui</button>
+
+  <script>
+    function boasVindas() {
+      // vai perguntar o nome
+      var nome = prompt("Qual é o seu nome?");
+
+      // idade e o nome dito
+      var idade = prompt("Olá, " + nome + "! Quantos anos você tem?");
+
+      // Exibe a mensagem final
+      alert("Que maravilha! " + nome + " tem " + idade + " anos!");
+    }
+  </script>
+
+</body>
+</html>

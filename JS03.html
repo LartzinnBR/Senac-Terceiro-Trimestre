@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Atividade Antes e Depois</title>
+</head>
+<body>
+
+  <h2>Atividade Antes e Depois</h2>
+
+  <!-- Botão -->
+  <button onclick="mostrarAntesDepois()">Clique aqui</button>
+
+  <!-- JavaScript -->
+  <script>
+    function mostrarAntesDepois() {
+      // Pede um número inteiro ao usuário
+      var numero = prompt("Digite um número inteiro:");
+
+      // Converte para número
+      numero = Number(numero);
+
+      // Calcula o antecessor e o sucessor
+      var antes = numero - 1;
+      var depois = numero + 1;
+
+      // Mostra a mensagem final
+      alert("O antecessor de " + numero + " é " + antes + " e o sucessor é " + depois + "!");
+    }
+  </script>
+
+</body>
+</html>
