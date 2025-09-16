@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Conversor de Distância</title>
+</head>
+<body>
+
+<h2>Conversor de Distância</h2>
+<button onclick="converter()">Converter Distância</button>
+
+<script>
+function converter() {
+  let m = prompt("Digite a distância em metros:")
+  m = Number(m)
+
+  let km = m / 1000
+  let hm = m / 100
+  let dam = m / 10
+  let dm = m * 10
+  let cm = m * 100
+  let mm = m * 1000
+
+  alert("A distância de " + m + " metro(s) corresponde a:\n\n" +
+  km + " km\n" +
+  hm + " hm\n" +
+  dam + " dam\n" +
+  dm + " dm\n" +
+  cm + " cm\n" +
+  mm + " mm")
+}
+</script>
+
+</body>
+</html>
